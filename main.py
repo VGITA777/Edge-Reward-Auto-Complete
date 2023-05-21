@@ -3,7 +3,7 @@ import webbrowser
 
 def generate_random_word(length):
     letters = 'abcdefghijklmnopqrstuvwxyz'
-    return ''.join(random.choice(letters) for _ in range(length))
+    return ''.join(random.choice(letters) for i in range(length))
 
 def search_random_word():
     random_word = generate_random_word(random.randint(5, 10))
@@ -14,5 +14,5 @@ def search_random_word():
 num_searches = int(input("Enter the number of random searches: "))
 
 # Perform random searches
-for _ in range(num_searches):
+for i in range(num_searches):
     search_random_word()
