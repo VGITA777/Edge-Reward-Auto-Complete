@@ -4,3 +4,5 @@
 
 In execuiting the file, open the main folder, then run the main.exe
 the main.py is the code used in the portable version, or you can just copy the code and execute it.
+
+Also this will lunch your default browser. So make sure that your using microsoft edge as your default browser.
